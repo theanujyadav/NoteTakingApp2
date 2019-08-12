@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.notetakingapp2.MainActivity">
+    <item
+        android:title="Add Sample Data"
+        android:id="@+id/add_sample_data"
+        app:showAsAction="never"
+        android:orderInCategory="100"
+        ></item>
+    <item
+        android:title="Delete All Data"
+        android:id="@+id/delete_all_data"
+        app:showAsAction="never"
+        android:orderInCategory="101"
+        ></item>
+</menu>
